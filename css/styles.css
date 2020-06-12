@@ -1,0 +1,41 @@
+
+a {
+    text-decoration: none;  /*Убирает подчеткивание в ссылок*/
+}
+
+:root {
+    --main-1-color: black;
+    --main-2-color: blue;
+    --main-3-color: white;
+    --main-4-color: #757575;
+  }
+
+.link {
+    color: var(--main-1-color);
+}
+  
+.link:hover {
+    color: var(--main-2-color);
+}
+
+.link:focus{
+    color: var(--main-2-color);
+}
+
+
+.web{
+    color: var(--main-2-color);
+}
+
+
+
+
+/* 
+background: #fff; Цвет фона
+padding: 10px; Поля вокруг
+display: block; Блочный элемент
+width: 270px; Ширина
+height: 251px; Высота
+float: left; Блоки выстраиваются по горизонтали
+margin: 0 10px 10px 0; Отступы
+text-align: center; Выравнивание по центру */
