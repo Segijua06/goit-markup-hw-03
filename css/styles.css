@@ -6,23 +6,31 @@ body {
     width: 1600px;
 }
 
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
 }
 
 .container {
     width: 1170px;
-    padding-left: 15px;
     padding-right: 15px;
+    padding-left: 15px;    
     margin-left: auto;
     margin-right: auto;
 }
+
 
 :root {
     --main-1-color: black;
     --main-2-color: #2196F3;
     --main-3-color: #FFFFFF;
     --main-4-color: #757575;
+    --main-5-color: #2F303A;
 }
 
 .link {
@@ -41,26 +49,40 @@ a {
     color: var(--main-2-color);
 }
 
-.button{
+.button {
     display: inline-block;
     padding: 10px 32px;
     margin-left: 700px;
-  
+      
     border-radius: 4px;
     background-color: var(--main-2-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
-  
-    font-family: Roboto;
-    font-size: 14px;
-    text-decoration: bold;
-    text-transform: uppercase;
-    font-weight: 700;
+    border: 0px;  
+}
+.button:hover,
+.button:focus {
+    background-color: blue;
+}
+
+
+.features .title {
+    display: none;
 }
 
 
 
+.footer {
+    background-color: var(--main-5-color);
+}
 
+.social-icon {
+    display: inline-block;
+    padding: 12px;    
+    background-color: var(--main-2-color);
+    color: var(--main-3-color);
+    font-weight: bold;
+    border-radius: 50%;
+}
 
 
 
