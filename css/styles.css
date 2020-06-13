@@ -1,4 +1,7 @@
 
+html {
+    box-sizing: border-box;
+}
 body {
     width: 1600px;
 }
@@ -7,19 +10,19 @@ a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
 }
 
-:root {
-    --main-1-color: black;
-    --main-2-color: #2196F3;
-    --main-3-color: #FFFFFF;
-    --main-4-color: #757575;
-}
-
 .container {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+:root {
+    --main-1-color: black;
+    --main-2-color: #2196F3;
+    --main-3-color: #FFFFFF;
+    --main-4-color: #757575;
 }
 
 .link {
@@ -33,7 +36,6 @@ a {
 .link:focus{
     color: var(--main-2-color);
 }
-
 
 .web{
     color: var(--main-2-color);
@@ -51,14 +53,12 @@ a {
   
     font-family: Roboto;
     font-size: 14px;
-    text-decoration: none;
+    text-decoration: bold;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-html {
-        box-sizing: border-box;
-}
+
 
 
 
