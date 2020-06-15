@@ -61,13 +61,13 @@ footer .container {
 
     /* Header */
 header .container {
-    /* display: flex; */
     align-items: center;
+    height: 81px;
 }
 header {
-    font-size: 14px;
-    line-height: 1.14;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.02em;
 }
 
