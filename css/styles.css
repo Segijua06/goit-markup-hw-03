@@ -18,9 +18,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
+/* body {
     width: 1600px;
-}
+} */
 
 a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
@@ -51,6 +51,11 @@ ul {
     padding-left: 15px;      
     margin-left: auto;
     margin-right: auto;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--main-2-color);
 }
 
 header .container,
@@ -114,32 +119,39 @@ header {
     color: var(--main-4-color);
 }
 
-.element {
-    width: 270;
+/* Шапка сайта */
+.hero {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    background-color: mediumaquamarine;
+    height: 600px;
 }
 
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--main-3-color);
+    margin-bottom: 30px;
+}
 
-
-
-/* .link {
-    color: var(--main-1-color);
-} */
-  
-.link:hover,
-.link:focus {
-    color: var(--main-2-color);
+button {
+    background-color: var(--main-2-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;     
 }
 
 .button {
-    display: inline-block;
     padding: 10px 32px;
-    margin-left: 700px;
-      
-    border-radius: 4px;
-    background-color: var(--main-2-color);
-    color: white;
-    border: 0px;  
+    color: var(--main-3-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border: 0px;
+    min-width: 200px;
 }
+
 .button:hover,
 .button:focus {
     background-color: blue;
@@ -154,6 +166,7 @@ header {
 
 .footer {
     background-color: var(--main-5-color);
+    height: 253px;
 }
 
 .social-icon {
@@ -164,16 +177,3 @@ header {
     font-weight: bold;
     border-radius: 50%;
 }
-
-
-
-
-/* 
-background: #fff; Цвет фона
-padding: 10px; Поля вокруг
-display: block; Блочный элемент
-width: 270px; Ширина
-height: 251px; Высота
-float: left; Блоки выстраиваются по горизонтали
-margin: 0 10px 10px 0; Отступы
-text-align: center; Выравнивание по центру */
