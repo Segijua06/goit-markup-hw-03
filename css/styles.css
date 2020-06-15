@@ -1,35 +1,5 @@
 
-html {
-    box-sizing: border-box;
-}
-body {
-    width: 1600px;
-}
-
-*,
-::before,
-::after {
-  box-sizing: inherit;
-}
-
-a {
-    text-decoration: none;  /*Убирает подчеткивание в ссылок*/
-}
-
-.container {
-    display: flex;
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;    
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.element {
-    width: 270;
-}
-
-
+      /* Text colors */
 :root {
     --main-1-color: black;
     --main-2-color: #2196F3;
@@ -38,19 +8,125 @@ a {
     --main-5-color: #2F303A;
 }
 
-.link {
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+    width: 1600px;
+}
+
+a {
+    text-decoration: none;  /*Убирает подчеткивание в ссылок*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    padding-top: 94px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    padding-left: 15px;      
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container,
+footer .container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+    /* Header */
+header .container {
+    /* display: flex; */
+    align-items: center;
+}
+header {
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    margin-right: 85px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: var(--main-2-color);
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 0px;
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 50px;
+}
+
+.nav-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-item a {
     color: var(--main-1-color);
 }
+
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+.contacts-item:not(:last-child) {
+    margin-right: 50px;    
+}
+
+.contacts-item a {
+    color: var(--main-4-color);
+}
+
+.element {
+    width: 270;
+}
+
+
+
+
+/* .link {
+    color: var(--main-1-color);
+} */
   
-.link:hover {
-    color: var(--main-2-color);
-}
-
-.link:focus{
-    color: var(--main-2-color);
-}
-
-.web{
+.link:hover,
+.link:focus {
     color: var(--main-2-color);
 }
 
