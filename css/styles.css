@@ -6,6 +6,7 @@
     --main-3-color: #FFFFFF;
     --main-4-color: #757575;
     --main-5-color: #2F303A;
+    --main-6-color: #F5F4FA;
 }
 
 html {
@@ -89,9 +90,12 @@ header {
 }
 
 .nav-list,
-.contacts-list {
+.contacts-list,
+.features-list,
+.tech-skills-list,
+.team-list,
+.clients-list {
     display: flex;
-    padding-left: 0px;
 }
 
 .nav-item:not(:last-child) {
@@ -100,8 +104,8 @@ header {
 
 .nav-item,
 .contacts-item {
-    margin-top: 32px;
-    margin-bottom: 32px;    
+    padding-top: 32px;
+    padding-bottom: 32px;    
 }
 
 .nav-item a {
@@ -109,7 +113,7 @@ header {
 }
 
 .contacts-list {
-    margin-left: 305px;
+    margin-left: auto;
 }
 .contacts-item:not(:last-child) {
     margin-right: 30px;    
@@ -118,6 +122,8 @@ header {
 .contacts-item a {
     color: var(--main-4-color);
 }
+        /* Header end*/
+
 
         /* Шапка сайта */
 .hero {
@@ -157,22 +163,23 @@ button {
     background-color: blue;
 }
 
-        /* Features */
-/* .features {
-    display: block;
-} */
+            /* Features */
 
 .features .title {
     display: none;
 }
 
-.feauteres-list {
-    display: flex;   
+.features-item:not(:last-child),
+.tech-skills-item:not(:last-child),
+.team-item:not(:last-child),
+.clients-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .item-image {
     padding: 25px 100px 25px 100px;
     margin: 0px 0px 30px 0px;
+    background-color: var(--main-6-color);
 }
 
 .item-titles {
@@ -182,14 +189,19 @@ button {
     margin-bottom: 10px;
 }
 .item-text {
-    text-align: left;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--main-4-color);
 }
+            /* Features end */
 
-
+            /* Tech skills container */
+.tech-skills .title {
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
 
 
 .footer {
