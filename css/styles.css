@@ -18,7 +18,16 @@ html {
 ::after {
   box-sizing: inherit;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /* body {
     width: 1600px;
 } */
@@ -30,14 +39,19 @@ a {
 ul {
     text-decoration: none;
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .container {
     display: flex;
     width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     padding-right: 15px;
-    padding-left: 15px;     
-    margin: 94px auto 94px auto;   
+    padding-left: 15px; 
+
+    margin: 0px auto 0px auto;   
 }
 
 .link:hover,
@@ -47,8 +61,8 @@ ul {
 
 header .container,
 footer .container {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -81,7 +95,6 @@ header {
 .nav-list,
 .contacts-list,
 .features-list,
-.tech-skills-list,
 .team-list,
 .clients-list {
     display: flex;
@@ -152,14 +165,13 @@ header {
     background-color: blue;
 }
 
-            /* Features */
+            /* Features container start */
 
-.features .title {
+.features-title {
     display: none;
 }
 
 .features-item:not(:last-child),
-.tech-skills-item:not(:last-child),
 .team-item:not(:last-child),
 .clients-item:not(:last-child) {
     margin-right: 30px;
@@ -171,7 +183,7 @@ header {
     background-color: var(--main-6-color);
 }
 
-.item-titles {
+.features-item-title {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -183,31 +195,45 @@ header {
     letter-spacing: 0.03em;
     color: var(--main-4-color);
 }
-            /* Features end */
+            /* Features container end */
 
-            /* Tech skills container */
-.tech-skills .title {
-    align-items: center;
-    padding-bottom: 50px;
-    
+            /* Tech skills container start */
+.tech-skills {
+    text-align: center;
+    min-width: 386px;
+}
+.tech-skills-list {
+    display: flex;
 }
 
+.tech-skills-item:not(:last-child){
+    margin-right: 30px;
+}
+.skills-title {
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 50px;
+}
+
+
+
+            /* Our team container start */
 .our-team {
     text-align: center;
     background-color: var(--main-6-color);
     min-width: 1600px;
-    height: 702px;
+    /* height: 702px; */
 }
 
 .team-title {
     font-size: 36px;
     line-height: 42px;
-    padding-top: 94px;
     padding-bottom: 50px;
 
 }
 .team-list {
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
+    height: 422px;
 }
 .team-item {
     align-items: center;
@@ -215,7 +241,41 @@ header {
     border-radius: 4px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
+.team-item-title {
+    margin-top: 30px;
+    /* font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em; */
+}
 
+.team-item-description {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.social-icon-container {
+    margin-bottom: 24px;
+}
+.social-icon {
+    padding: 12px; 
+    border-radius: 50%;
+    border: 0px;
+}
+
+.social-icon:not(:last-child) {
+    margin-right: 10px;
+}
+/* .social-icon:hover,
+.social-icon:focus {
+    
+    padding: 12px;    
+    background-color: var(--main-2-color);
+    border-radius: 50%;
+} */
+
+
+
+
+            /* Footer container */
 .footer {
     background-color: var(--main-5-color);
     height: 253px;
@@ -230,18 +290,9 @@ header {
     color: var(--main-3-color);
 }
 
-.social-icon {
-    padding: 12px; 
-    border-radius: 50%;
-}
-.social-icon:hover,
-.social-icon:focus {
-    display: inline-block;
-    /* padding: 12px;     */
-    background-color: var(--main-2-color);
-    font-weight: bold;
-    border-radius: 50%;
-}
+
+
+                /* Our team container end */
 
             /* Portfolio */
 
