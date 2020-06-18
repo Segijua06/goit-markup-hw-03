@@ -72,11 +72,25 @@ footer .container {
     letter-spacing: 0.03em;
 }
 
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
 
 
         /* Header */
+.header-content {
+    display: flex;
+    
+}
+.header-logo {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 85px;
+}
 header .container {
-    align-items: center;
     height: 81px;
 }
 header {
@@ -87,7 +101,6 @@ header {
 }
 
 .logo {
-    margin-right: 85px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -148,6 +161,7 @@ header {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    letter-spacing: 0.06em;
     color: var(--main-3-color);
     margin-bottom: 30px;
 }
@@ -172,9 +186,12 @@ header {
 .hero .button:focus {
     background-color: blue;
 }
+            /* Шапка сайта */
 
             /* Features container start */
-
+.features .container {
+    padding-bottom: 0;
+}
 .features-title {
     display: none;
 }
@@ -213,12 +230,11 @@ header {
 .tech-skills-list {
     display: flex;
 }
-
 .tech-skills-item:not(:last-child){
     margin-right: 30px;
 }
-
             /* Tech skills container end */
+
 
             /* Our team container start */
 .our-team {
@@ -267,14 +283,16 @@ header {
 } */
             /* Our team container start */
 
-            /* Clients */
+
+
+            /* Clients start*/
 .clients {
     text-align: center;
 }
+            /* Clients end */
 
 
             /* Footer container */
-
 .page-footer {
     background-color: var(--main-5-color);    
     /* height: 253px; */
@@ -306,20 +324,17 @@ header {
 }
 .adress-item a {
     color: rgba(255, 255, 255, 0.6);
-  }
+}
 
 .footer-contacts {
     padding-right: 69px;
 }
-.join-social-network {
-    
+.join-social-network {    
     padding-right: 94px;
 }
+            /* Our team container end */
 
-
-                /* Our team container end */
-
-            /* Portfolio */
+            /* Portfolio start */
 
 .our-project h1 {
     display: none;
@@ -352,6 +367,7 @@ header {
 .our-project .button:hover,
 .our-project .button:focus {
     background-color: var(--main-2-color);
+    color: var(--main-3-color);
 }
 
 .portfolio-list {
@@ -362,7 +378,17 @@ header {
 .portfolio-item {
     width: calc((100% - 30px * 2 ) / 3);
     margin-right: 30px;
-
+    
+}
+.card-image {
+    display: block;
+}
+.card-contents {
+    border: 1px solid #EEEEEE;
+    background-color: var(--main-3-color);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
 }
 .portfolio-item:nth-child(3n) {
     margin-right: 0;
@@ -370,3 +396,20 @@ header {
 .portfolio-item:nth-child(n + 4) {
     margin-top: 30px;
 }
+
+.portfolio-titles {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--main-1-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--main-4-color);
+    margin-bottom: 20px;
+}
+            /* Portfolio end */
