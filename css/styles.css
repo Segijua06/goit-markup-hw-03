@@ -158,7 +158,6 @@ header {
     padding-top: 200px;
     padding-bottom: 280px;
     background: rgba(47, 48, 58, 0.8);
-    min-width: 1600px;
     height: 600px;
 }
 
@@ -299,8 +298,7 @@ header {
 
             /* Footer container */
 .page-footer {
-    background-color: var(--main-5-color); 
-    min-width: 1600px;   
+    background-color: var(--main-5-color);  
     /* height: 253px; */
 }
 
