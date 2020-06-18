@@ -183,7 +183,7 @@ header {
     line-height: 30px;
     letter-spacing: 0.06em;
     border: 0px;
-    min-width: 200px;
+    /* min-width: 200px; */
 }
 
 .hero .button:hover,
@@ -229,7 +229,7 @@ header {
             /* Tech skills container start */
 .tech-skills {
     text-align: center;
-    min-width: 386px;
+    /* min-width: 386px; */
 }
 .tech-skills-list {
     display: flex;
@@ -351,7 +351,7 @@ header {
 }
 
 .filter-item {
-    min-width: 73px;
+    /* min-width: 73px; */
 }
 .filter-item:not(:last-child) {
     margin-right: 8px;
