@@ -87,6 +87,7 @@ header {
     font-weight: 700;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--main-1-color);
 }
 
 .web {
@@ -274,25 +275,38 @@ header {
 
 
             /* Footer container */
-.footer {
-    background-color: var(--main-5-color);
+.page-footer {
+    background-color: var(--main-5-color);    
     /* height: 253px; */
 }
 
-.footer-container-1,
-.footer-container-2,
-.footer-container-3 {
-    display: flex;
-}
-.footer .logo {
+.logo.inverse {
     color: var(--main-3-color);
 }
 
-.copyrights {
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 21px;
-    color: var(--main-7-color);
+
+.footer-content {
+    padding-top: 60px;
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-between; */
+}
+
+.adress {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-style: normal;
+}
+.adress-item:not(:last-child) {
+    padding-bottom: 9px;
+}
+
+.footer-contacts {
+    padding-right: 69px;
+}
+.join-social-network {
+    
+    padding-right: 94px;
 }
 
 
