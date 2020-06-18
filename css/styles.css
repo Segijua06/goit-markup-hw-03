@@ -7,6 +7,7 @@
     --main-4-color: #757575;
     --main-5-color: #2F303A;
     --main-6-color: #F5F4FA;
+    --main-7-color: rgba(255, 255, 255, 0.4);
 }
 
 html {
@@ -275,7 +276,7 @@ header {
             /* Footer container */
 .footer {
     background-color: var(--main-5-color);
-    height: 253px;
+    /* height: 253px; */
 }
 
 .footer-container-1,
@@ -287,6 +288,12 @@ header {
     color: var(--main-3-color);
 }
 
+.copyrights {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    color: var(--main-7-color);
+}
 
 
                 /* Our team container end */
