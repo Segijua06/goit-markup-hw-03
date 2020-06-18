@@ -245,8 +245,8 @@ header {
 .our-team {
     text-align: center;
     background-color: var(--main-6-color);
-    /* min-width: 1600px; */
-    /* height: 702px; */
+    /* min-width: 1600px;
+    height: 702px; */
 }
 
 .team-list {
@@ -351,9 +351,10 @@ header {
     margin-bottom: 50px;    
 }
 
-.filter-item {
-    /* min-width: 73px; */
-}
+/* .filter-item {
+    min-width: 73px;
+} */
+
 .filter-item:not(:last-child) {
     margin-right: 8px;
 }
