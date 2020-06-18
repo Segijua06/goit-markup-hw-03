@@ -280,26 +280,33 @@ header {
     /* height: 253px; */
 }
 
-.logo.inverse {
+.logo.inverse,
+.inverse {
     color: var(--main-3-color);
 }
-
 
 .footer-content {
     padding-top: 60px;
     display: flex;
     align-items: baseline;
+    padding-bottom: 60px;
     /* justify-content: space-between; */
 }
 
 .adress {
-    padding-top: 20px;
-    padding-bottom: 60px;
+    margin-top: 20px;
     font-style: normal;
 }
 .adress-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
+.adress-item {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.adress-item a {
+    color: rgba(255, 255, 255, 0.6);
+  }
 
 .footer-contacts {
     padding-right: 69px;
