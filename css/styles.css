@@ -80,6 +80,9 @@ footer .container {
 
 
         /* Header */
+.border {
+    border-bottom: 1px solid #ECECEC;
+}
 .header-content {
     display: flex;
     
