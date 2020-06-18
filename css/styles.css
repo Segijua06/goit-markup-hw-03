@@ -44,7 +44,7 @@ ul {
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -215,7 +215,7 @@ header {
     padding-bottom: 50px;
 }
 
-
+            /* Tech skills container end */
 
             /* Our team container start */
 .our-team {
@@ -243,9 +243,6 @@ header {
 }
 .team-item-title {
     margin-top: 30px;
-    /* font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em; */
 }
 
 .team-item-description {
