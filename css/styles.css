@@ -86,8 +86,7 @@ footer .container {
 }
 .header-content {
     display: flex;
-    
-    
+    align-items: center;    
 }
 .header-logo {
     text-align: center;
