@@ -290,13 +290,12 @@ header {
     margin-right: 10px;
 }
 .social-icon:hover,
-.social-icon:focus {
-    
+.social-icon:focus {    
     padding: 12px;    
     background-color: var(--main-2-color);
     border-radius: 50%;
 }
-            /* Our team container start */
+            /* Our team container end */
 
 
 
