@@ -29,12 +29,14 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* body {
-    width: 1600px;
-} */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
+    /* display: flex;
+    align-items: center; */
 }
 
 ul {
@@ -122,6 +124,9 @@ header {
 .team-list,
 .clients-list {
     display: flex;
+}
+.contacts-list {
+    align-items: center;
 }
 
 .nav-item:not(:last-child) {
@@ -268,6 +273,13 @@ header {
 }
 .social-icon-container {
     margin-bottom: 24px;
+}
+.social-icon-f {
+    margin-top: 20px;
+}
+
+.s-i-f {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .social-icon {
     padding: 12px; 
