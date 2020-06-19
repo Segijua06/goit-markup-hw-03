@@ -289,13 +289,13 @@ header {
 .social-icon:not(:last-child) {
     margin-right: 10px;
 }
-/* .social-icon:hover,
+.social-icon:hover,
 .social-icon:focus {
     
     padding: 12px;    
     background-color: var(--main-2-color);
     border-radius: 50%;
-} */
+}
             /* Our team container start */
 
 
