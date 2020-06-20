@@ -278,7 +278,9 @@ header {
 .social-icon-f {
     display: flex;
 }
-
+.page-footer .social-icon-f {
+    padding-top: 20px;
+}
 .s-i-f {
     background-color: rgba(255, 255, 255, 0.1);
 }
