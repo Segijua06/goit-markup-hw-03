@@ -270,9 +270,11 @@ header {
     margin-top: 10px;
     margin-bottom: 16px;
 }
-/* .social-icon-container {
-    margin-bottom: 24px;
-} */
+.social-icon-container {
+    /* margin-bottom: 24px; */
+    padding-left: 32px;
+    padding-right: 32px;
+}
 .social-icon-f {
     display: flex;
 }
