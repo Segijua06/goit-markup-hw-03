@@ -35,8 +35,6 @@ body {
 
 a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
-    /* display: flex;
-    align-items: center; */
 }
 
 ul {
